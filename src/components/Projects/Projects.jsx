@@ -21,7 +21,7 @@ const Projects = () => {
             <Div>Portfolio</Div>
             <Div1>
                 <BlogCard>
-                    <Img src={Img1} />
+                    <Img src={Img1} loading="lazy" />
                     <Content>
                         <h3>E-commerce Xclusive app</h3>
                         <p>
@@ -58,7 +58,7 @@ const Projects = () => {
                 </BlogCard>
 
                 <BlogCard>
-                    <Img src={Img2} />
+                    <Img src={Img2} loading="lazy" />
                     <Content>
                         <h3>Banking dashboard app</h3>
                         <p>
