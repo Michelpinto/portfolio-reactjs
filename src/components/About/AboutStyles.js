@@ -36,7 +36,7 @@ export const Div1 = styled.div`
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    /* gap: 3rem; */
     line-height: 0.7cm;
     padding: 0 6.5rem;
     width: 45%;
@@ -65,22 +65,21 @@ export const Content = styled.div`
 
 export const Div2 = styled.div`
     display: flex;
-    /* align-items: center; */
-    gap: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    & h2 {
+        margin-right: 1rem;
+    }
 `;
 
 export const Icon = styled.div`
-    font-size: 2.5rem;
+    font-size: 3rem;
 `;
 
 export const BigIcons = styled.div`
     font-size: 4.5rem;
     display: flex;
-    gap: 1rem;
-
-    @media screen and (max-width: 400px) {
-        gap: 1rem;
-    }
 
     @media screen and (max-width: 350px) {
         padding: 0;
@@ -91,6 +90,12 @@ export const BigIcons = styled.div`
 export const BigIcon = styled.div`
     transition: all 0.2s;
     opacity: 85%;
+
+    margin-right: 1rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
 
     &:hover {
         color: #fff;

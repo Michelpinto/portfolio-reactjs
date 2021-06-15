@@ -12,21 +12,17 @@ const Header = () => {
                 style={{ width: "6rem", height: "6rem" }}
             />
             <Div1>
-                <Link
-                    to="#"
-                    onClick={() => window.location.replace("/#Projects")}
-                >
-                    <Navlink>Projects</Navlink>
-                </Link>
-                <Link to="#" onClick={() => window.location.replace("/#About")}>
-                    <Navlink>About</Navlink>
-                </Link>
-                <Link
-                    to="#"
-                    onClick={() => window.location.replace("/#Footer")}
-                >
-                    <Navlink>Contact</Navlink>
-                </Link>
+                <Navlink onClick={() => window.location.replace("/#Projects")}>
+                    Projects
+                </Navlink>
+
+                <Navlink onClick={() => window.location.replace("/#About")}>
+                    About
+                </Navlink>
+
+                <Navlink onClick={() => window.location.replace("/#Footer")}>
+                    Contact
+                </Navlink>
             </Div1>
         </Nav>
     );

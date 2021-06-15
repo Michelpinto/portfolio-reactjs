@@ -9,18 +9,24 @@ export const Nav = styled.div`
 
 export const Div1 = styled.div`
     display: flex;
-    gap: 5rem;
+    /* gap: 5rem; */
 
     font-size: 1.5rem;
     font-weight: 600;
-
-    @media ${(props) => props.theme.breakpoints.md} {
-        gap: 3rem;
-    }
 `;
 
 export const Navlink = styled.p`
     transition: all 0.2s;
+    margin-right: 5rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    @media ${(props) => props.theme.breakpoints.md} {
+        margin-right: 3rem;
+    }
+
     &:hover {
         color: #569cca;
     }

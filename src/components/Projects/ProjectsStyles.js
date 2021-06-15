@@ -41,7 +41,6 @@ export const Div1 = styled.div`
     @media ${(props) => props.theme.breakpoints.xl} {
         display: flex;
         flex-direction: column;
-        gap: 5rem;
     }
 
     @media ${(props) => props.theme.breakpoints.lg} {
@@ -65,6 +64,14 @@ export const BlogCard = styled.div`
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     width: 450px;
+
+    @media ${(props) => props.theme.breakpoints.xl} {
+        margin-bottom: 5rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 
     @media ${(props) => props.theme.breakpoints.lg} {
         width: 60%;
@@ -91,16 +98,25 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    gap: 2.5rem;
 
     & h3 {
         font-size: 2rem;
         color: #569cca;
+        margin-bottom: 2.5rem;
+
+        @media screen and (max-width: 400px) {
+            margin-bottom: 2rem;
+        }
     }
 
     & p {
         font-size: 1.5rem;
         line-height: 0.7cm;
+        margin-bottom: 2.5rem;
+
+        @media screen and (max-width: 400px) {
+            margin-bottom: 2rem;
+        }
     }
 
     @media screen and (max-width: 350px) {
@@ -156,8 +172,9 @@ export const ButtonGit = styled.button`
 
     display: flex;
     width: fit-content;
+    align-items: center;
 
-    gap: 1rem;
+    /* gap: 1rem; */
 
     &:hover {
         transform: translateY(-3px);
@@ -166,4 +183,5 @@ export const ButtonGit = styled.button`
 
 export const Icon = styled.div`
     font-size: 2rem;
+    margin-left: 1rem;
 `;

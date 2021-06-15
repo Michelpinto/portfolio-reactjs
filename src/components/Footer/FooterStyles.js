@@ -24,12 +24,16 @@ export const Container = styled.div`
 export const SocialIcons = styled.div`
     font-size: 2rem;
     display: flex;
-    gap: 2rem;
 `;
 
 export const Icon = styled.a`
     transition: all 0.2s;
     cursor: pointer;
+    margin-right: 2rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
 
     &:hover {
         color: #569cca;
@@ -41,7 +45,6 @@ export const Content = styled.div`
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
 
     @media screen and (max-width: 400px) {
         text-align: center;
@@ -50,6 +53,7 @@ export const Content = styled.div`
 
 export const Title = styled.p`
     opacity: 50%;
+    margin-bottom: 2rem;
 `;
 
 export const Email = styled.a`
@@ -72,10 +76,13 @@ export const Div = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 3rem;
     }
 `;
 
 export const Text = styled.p`
     font-size: 1.5rem;
+
+    @media screen and (max-width: 400px) {
+        margin-bottom: 3rem;
+    }
 `;
