@@ -29,7 +29,6 @@ export const Div1 = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 5rem;
     }
 `;
 
@@ -44,6 +43,11 @@ export const Content = styled.div`
     @media ${(props) => props.theme.breakpoints.xl} {
         padding: 0 4.5rem;
         width: 100%;
+        margin-bottom: 5rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     @media ${(props) => props.theme.breakpoints.md} {

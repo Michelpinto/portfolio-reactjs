@@ -40,6 +40,7 @@ const About = () => {
                         things done.
                     </p>
                 </Content>
+
                 <Content>
                     <Div2>
                         <h2>Stacks and skills</h2>
@@ -47,7 +48,6 @@ const About = () => {
                             <IoCodeSlashOutline />
                         </Icon>
                     </Div2>
-
                     <BigIcons>
                         <BigIcon>
                             <IoLogoHtml5 />
