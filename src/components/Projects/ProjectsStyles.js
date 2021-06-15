@@ -53,7 +53,11 @@ export const Div1 = styled.div`
     }
 
     @media screen and (max-width: 400px) {
-        padding: 0 1.5rem;
+        padding: 1rem;
+    }
+
+    @media screen and (max-width: 350px) {
+        padding: 0;
     }
 `;
 
@@ -97,6 +101,10 @@ export const Content = styled.div`
     & p {
         font-size: 1.5rem;
         line-height: 0.7cm;
+    }
+
+    @media screen and (max-width: 350px) {
+        padding: 1rem;
     }
 `;
 

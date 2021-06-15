@@ -50,6 +50,10 @@ export const Content = styled.div`
         padding: 0 2.5rem;
     }
 
+    @media screen and (max-width: 400px) {
+        padding: 0;
+    }
+
     & h2 {
         font-size: 2rem;
     }
@@ -73,6 +77,15 @@ export const BigIcons = styled.div`
     font-size: 4.5rem;
     display: flex;
     gap: 1rem;
+
+    @media screen and (max-width: 400px) {
+        gap: 1rem;
+    }
+
+    @media screen and (max-width: 350px) {
+        padding: 0;
+        flex-wrap: wrap;
+    }
 `;
 
 export const BigIcon = styled.div`

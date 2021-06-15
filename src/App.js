@@ -5,13 +5,14 @@ import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import styled from "styled-components";
 import Animation from "./components/BackgroundAnimation/Animation";
+import smoothscroll from "smoothscroll-polyfill";
 
 const Section = styled.section`
     display: ${(props) => (props.grid ? "grid" : "flex")};
     flex-direction: ${(props) => (props.row ? "row" : "column")};
-    padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
-    margin: 0 auto;
-    max-width: 1040px;
+    padding: ${(props) => (props.nopadding ? "0" : "32px 6.5rem 0")};
+    margin: 0;
+    /* max-width: 1040px; */
     box-sizing: content-box;
     position: relative;
     overflow: hidden;
@@ -24,9 +25,15 @@ const Section = styled.section`
     }
 
     @media screen and (max-width: 400px) {
-        padding: 0 1.5rem;
+        padding: 1rem;
+    }
+
+    @media screen and (max-width: 350px) {
+        padding: 0;
     }
 `;
+
+smoothscroll.polyfill();
 
 function App() {
     return (

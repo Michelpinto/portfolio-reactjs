@@ -15,6 +15,7 @@ import {
     IoLogoJavascript,
     IoLogoReact,
     IoLogoVercel,
+    IoLogoFigma,
     IoPersonCircleOutline,
     IoCodeSlashOutline,
 } from "react-icons/io5";
@@ -65,6 +66,9 @@ const About = () => {
                         </BigIcon>
                         <BigIcon>
                             <IoLogoVercel />
+                        </BigIcon>
+                        <BigIcon>
+                            <IoLogoFigma />
                         </BigIcon>
                     </BigIcons>
                 </Content>
