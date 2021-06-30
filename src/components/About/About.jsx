@@ -33,11 +33,11 @@ const About = () => {
                         </Icon>
                     </Div2>
                     <p>
-                        I'm Michel Pinto, 23 years old from Angola. I started
-                        learning web development and design september 2020, but
-                        only got serious about it in december and i never looked
-                        back. I'm a go-getter type of person and i like to get
-                        things done.
+                        I am a self-taught Frontend web developer who enjoys
+                        finding solutions to difficult problems. I’ve always had
+                        a creator personality and found ways to achieve things
+                        on my own. I’m a visual and fast learner and would
+                        thrive in highly collaborative environments.
                     </p>
                 </Content>
 
