@@ -1,12 +1,14 @@
-import { createGlobalStyle } from "styled-components";
-import { normalize } from "styled-normalize";
+import { createGlobalStyle } from 'styled-components';
+import { normalize } from 'styled-normalize';
 
 const GlobalStyles = createGlobalStyle`
 ${normalize};
 
 body {
     font-family: "Montserrat", sans-serif;
-    padding: 4rem;
+    padding: 3rem 6rem;
+    margin: auto;
+    max-width: 1400px;
     color: #ebebeb;
     background-color: #1a1a1a;
 
