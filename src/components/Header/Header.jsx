@@ -15,11 +15,11 @@ const Header = () => {
           Home
         </Navlink>
 
-        <Navlink onClick={() => window.location.replace('/#About')}>
+        <Navlink target='_blank' href='https://github.com/Michelpinto'>
           Github
         </Navlink>
 
-        <Navlink onClick={() => window.location.replace('/#Footer')}>
+        <Navlink target='_blank' href='mailto:michelpintodev@gmail.com'>
           Email
         </Navlink>
       </Div1>
