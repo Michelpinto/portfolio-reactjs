@@ -1,7 +1,6 @@
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Projects from './components/Projects/Projects';
-import styled from 'styled-components';
 import smoothscroll from 'smoothscroll-polyfill';
 
 smoothscroll.polyfill();
