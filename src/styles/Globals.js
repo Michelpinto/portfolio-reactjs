@@ -8,7 +8,7 @@ body {
     font-family: "Montserrat", sans-serif;
     padding: 3rem 6rem;
     margin: auto;
-    max-width: 1400px;
+    max-width: 1200px;
     color: #ebebeb;
     background-color: #1a1a1a;
 

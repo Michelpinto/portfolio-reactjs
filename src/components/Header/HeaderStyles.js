@@ -15,7 +15,7 @@ export const Div1 = styled.div`
   font-weight: 600;
 `;
 
-export const Navlink = styled.p`
+export const Navlink = styled.a`
   transition: all 0.2s;
   margin-right: 5rem;
   cursor: pointer;

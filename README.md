@@ -1,5 +1,5 @@
 ## My updated portfolio
 
-My update website portfolio is here finally 🥳
+The updated version of my website portfolio is finally here 🥳
 
 Built with React to showcase my best projects, my skills and ways of contacting me!
